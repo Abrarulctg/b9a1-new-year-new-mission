@@ -252,6 +252,7 @@
     padding: 80px;
     text-align: center;
     background-color: #ff00000d;
+    border-radius: 8px;
 }
 
 .email-input {
@@ -275,12 +276,39 @@
 
 
 /* Footer Section Style */
-
-.footer-contact-info {
-    display: flex;
-    justify-content: space-around;
+.footer-container {
     background-color: #070211;
     color: #fff;
-    padding: 100px 0 40px;
+    text-align: center;
+}
 
+.footer-contact-info {
+    justify-content: space-around;
+    display: flex;
+    padding: 100px 0 40px;
+    margin-top: 50px;
+}
+
+.social-item-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+footer hr {
+    border: 1px solid #ffffff26;
+    margin: 0 80px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+    padding: 30px;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: #fff;
 }
