@@ -23,6 +23,7 @@
     font-size: 20px;
     font-weight: 400;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -40,6 +41,9 @@
     margin-top: 25px;
 }
 
+.section-container {
+    margin: 0 80px;
+}
 
 /* Header Section Style */
 .header-container {
@@ -91,14 +95,6 @@
     margin-bottom: 16px;
 }
 
-/* 
-.all-categories {
-    color: #070211;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 48px;
-} */
 
 
 /* Welcome to midnight party Style */
@@ -223,4 +219,22 @@
     right: 0;
     top: 0;
     /* width: auto; */
+}
+
+.discount-50 {
+    position: absolute;
+    right: 26%;
+    top: 10%;
+}
+
+
+/* Our Awesome Portfolio Section */
+.portfolio-img-container {
+    columns: 3;
+    column-gap: 20px;
+}
+
+.portfolio-item {
+    width: 100%;
+    margin-bottom: 20px;
 }
