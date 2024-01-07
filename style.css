@@ -199,3 +199,28 @@
     font-size: 72px;
     font-weight: 900;
 }
+
+.gift-box-area {
+    background-image: url('./resources/gift-area-bg.png');
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* width: 85%; */
+    text-align: center;
+    margin: 90px;
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.gift-box {
+    width: 65%;
+    margin-top: 35px;
+}
+
+.girl-with-bag {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* width: auto; */
+}
