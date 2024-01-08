@@ -235,7 +235,6 @@
 
 .girl-with-bag {
     width: 100%;
-
     margin-top: 65px;
 }
 
@@ -255,10 +254,20 @@
 }
 
 .portfolio-item {
-    padding-left: 20px;
+    padding: 10px;
     margin-bottom: 20px;
     width: 95%;
 }
+
+.portfolio-item:hover {
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    width: 95%;
+    transition-duration: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
 
 
 /* Subscribe News Style */
@@ -267,6 +276,7 @@
     text-align: center;
     background-color: #ff00000d;
     border-radius: 8px;
+    margin: 80px 0;
 }
 
 .subscribe-news-container img {
@@ -298,6 +308,48 @@
     cursor: pointer;
     position: absolute;
     top: 0;
+}
+
+
+
+/* Get In Touch Section */
+.contact-form {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.contact-form fieldset {
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.contact-form legend {
+    text-align: left;
+    /* border-radius: 10px; */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: 3px solid #ffffff26;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #3d3d3d26;
 }
 
 
