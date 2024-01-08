@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* max-width: 100%; */
 }
 
 /* Common Shared Style */
@@ -79,6 +80,10 @@
 .holiday-deal-container {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.holiday-deal-container img {
+    width: auto;
 }
 
 .holiday-deal-title {
@@ -162,8 +167,6 @@
 .coming-soon-container {
     display: flex;
     gap: 40px;
-    /* margin: 0 100px; */
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -216,8 +219,7 @@
     text-align: center;
     margin: 90px;
     display: flex;
-    /* gap: 50px; */
-    /* position: relative; */
+
 }
 
 .gift-box {
@@ -233,9 +235,8 @@
 
 .girl-with-bag {
     width: 100%;
-    /* bottom: 230px; */
-    /* width: auto; */
-    margin-top: 60px;
+
+    margin-top: 65px;
 }
 
 .discount-50 {
@@ -246,12 +247,6 @@
 
 
 /* Our Awesome Portfolio Section */
-/* .portfolio-img-container {
-    columns: 3;
-    column-gap: 20px;
-} */
-
-
 .portfolio-img-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -274,12 +269,23 @@
     border-radius: 8px;
 }
 
+.subscribe-news-container img {
+    margin-bottom: 30px;
+}
+
+
+.subscribe-form {
+    margin-top: 40px;
+    position: relative;
+
+}
+
 .email-input {
     padding: 20px 25px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border: 0;
-    position: relative;
+    width: 50%;
 }
 
 .subscribe-btn {
@@ -289,23 +295,37 @@
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     border: 0;
+    cursor: pointer;
     position: absolute;
+    top: 0;
 }
-
 
 
 /* Footer Section Style */
 .footer-container {
     background-color: #070211;
     color: #fff;
-    text-align: center;
+}
+
+.footer-contact-info-container {
+    display: flex;
+    padding: 100px 0 40px;
+    /* margin-top: 50px; */
+    margin: auto 95px;
+}
+
+.footer-address {
+    text-align: left;
+    width: 100%;
 }
 
 .footer-contact-info {
-    justify-content: space-around;
+    width: 50%;
+}
+
+.footer-contact-info p {
     display: flex;
-    padding: 100px 0 40px;
-    margin-top: 50px;
+    gap: 10px;
 }
 
 .social-item-container {
