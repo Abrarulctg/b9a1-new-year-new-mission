@@ -55,7 +55,7 @@
     background-position: center top;
     padding: 150px 200px 130px;
     margin: 50px 60px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .header-content {
@@ -211,12 +211,13 @@
     background-position: center bottom;
     /* background-size: contain; */
     background-repeat: no-repeat;
-    width: 85%;
+    /* width: 85%; */
+    max-width: 100%;
     text-align: center;
     margin: 90px;
     display: flex;
     /* gap: 50px; */
-    position: relative;
+    /* position: relative; */
 }
 
 .gift-box {
@@ -224,8 +225,13 @@
     margin-bottom: 0px;
 }
 
+
+.girl-with-bag-container {
+    position: relative;
+    width: 30%;
+}
+
 .girl-with-bag {
-    /* position: absolute; */
     width: 100%;
     /* bottom: 230px; */
     /* width: auto; */
@@ -234,8 +240,8 @@
 
 .discount-50 {
     position: absolute;
-    right: 280px;
-    top: 30px;
+    right: 68%;
+    top: 22%;
 }
 
 
